@@ -1,4 +1,4 @@
- package com.example;
+ package com.var;
 
 public class Employee {
 

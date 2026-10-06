@@ -1,4 +1,4 @@
-package com.example;
+package com.variables;
 
 public class Student {
 	
@@ -7,7 +7,7 @@ public class Student {
 	
 	 byte standard = 12;
 	 short rollNumber = 25;
-	 int studentId = 1001;
+	 int studentId = 1001; 
 	 long contactNumber = 9638293719L;
 	 
 	 float percentage = 85.5f;
