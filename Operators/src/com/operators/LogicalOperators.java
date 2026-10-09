@@ -9,8 +9,27 @@ public class LogicalOperators {
 //		System.out.println(true && false);
 //		System.out.println(false && true);
 //		System.out.println(false && false);
-//		
-//		System.err.println(" ");
+		
+		
+		//Short circuit in && 
+		// If first condition is false
+//		int a = 10;
+//		System.out.println(false && ++a > 10);//short-circuit evaluation --> If first condition is false the && operator does not evaluate the second condition
+//		System.out.println(a);//10
+//		System.out.println(false && ++a > 10 && a++ < 20 && a == 11);//false
+//		System.out.println(a);//10
+		
+		// If false occurs at the middle
+//		int a = 10;
+//		System.out.println(true && ++a > 10 && a++ < 12 && a == 12);//true
+//		System.out.println(a);//12
+//		System.out.println(true && ++a > 10 && ++a < 12 && a == 12);
+//		System.out.println(a);//14
+		
+		
+		
+	
+//		System.out.println(" ");
 //
 //		// OR operators
 //		System.out.println(true || true);
@@ -18,13 +37,34 @@ public class LogicalOperators {
 //		System.out.println(false || true);
 //		System.out.println(false || false);
 		
+//		int a = 10;
+//		System.out.println(true || ++a > 10);//short-circuit evaluation --> If first condition is true in  the || operator does not evaluate the second condition
+//		System.out.println(a);//10
+		
+		// If true occurs at the middle
+//		int a = 10;
+//		System.out.println(true || ++a > 10 || a++ < 12 || a == 12);//true
+//		System.out.println(a);//10
+//		System.out.println(true || ++a > 10 || ++a < 12 || a == 12);//true
+//		System.out.println(a);//
+
+//		int a = 10;
+//		System.out.println(false || ++a > 10 || a++ < 12 || a == 12);//true
+//		System.out.println(a);//11
+//		System.out.println(false || a++ > 10 || ++a < 12 || a == 12);//true
+//		System.out.println(a);//12  
+		
+		
+		
 		//(not)! operator
 		
 		//System.out.println(!(true));
+//		int a = 5;
+//		System.out.println(!a);//Error --> because not(!) operator does not work directly with integer values   
 		
 		
 //		//Combine All Logical operators
-//		//1
+//		 //1
 //		boolean check = 4 <= 6;
 //		
 //		System.out.println(check || false && 4 > 4 || !("Ram" == "ram"));
