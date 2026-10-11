@@ -3,6 +3,8 @@ package com.practice;
 public class TrickyQuestions {
 public static void main(String[] args) {
 	
+//Combine All the operators tricky questions
+	
 	//int a = 10;
 //	System.out.println(false && ++a > 10);//short-circuit evaluation --> If first condition is false the && operator does not evaluate the second condition
 //	System.out.println(a);//10
