@@ -1,6 +1,6 @@
 package com.practice;
 
-public class test {
+public class ClassTest {
 	public static void main(String[] args) {
 //		//1
 //		int a = 10;
@@ -128,6 +128,29 @@ public class test {
 //		// 30.
 //		int a = 5, b = 10, c = 15;
 //		System.out.println((a < b && b > c) || !(b < c));
+		
+		
+		
+		//IMP order : 124 → 125 → 126 → 127 → -128 → -127 → -126 → -125
+  
+		//31
+//		byte a = 127;
+//		a++;
+//		System.out.println(a);//-128
+		
+		//32
+//		byte a = 125; 
+//		a += 5;
+//		System.out.println(a);//-126
+		
+		//33
+//		byte a = -128;
+//		a--;
+//		System.out.println(a);//127
+		
+		//34
+//		byte a = 130;//error
+//		System.out.println(a);
 
 	}
 }
