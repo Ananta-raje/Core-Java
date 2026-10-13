@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class IfStatements {
 
 	public static void main(String[] args) {
-
+     		Scanner sc = new Scanner(System.in);
 		// 1)Write a Java program to check if a number is positive.
-//		Scanner sc = new Scanner(System.in);
+
 //		int a = sc.nextInt();
 //		if (a > 0) {
 //			System.out.println("Positive number");
@@ -356,24 +356,250 @@ public class IfStatements {
 //		System.out.println("Final Amount: ₹" + finalAmount);
 
 		// 24)Age Category + Ticket Price
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Enter your age: ");
-		int age = sc.nextInt();
-		
-		if (age < 0) {
-			System.out.println("Invalid age.");
-		} else if (age >= 18) {
-			if (age >= 60) {
-				System.out.println("Category: Senior Citizen");
-				System.out.println("Ticket Price: ₹100 (Senior Discount)");
-			} else {
-				System.out.println("Category: Adult");
-				System.out.println("Ticket Price: ₹200 (Normal Price)");
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("Enter your age: ");
+//		int age = sc.nextInt();
+//		
+//		if (age < 0) {
+//			System.out.println("Invalid age.");
+//		} else if (age >= 18) {
+//			if (age >= 60) {
+//				System.out.println("Category: Senior Citizen");
+//				System.out.println("Ticket Price: ₹100 (Senior Discount)");
+//			} else {
+//				System.out.println("Category: Adult");
+//				System.out.println("Ticket Price: ₹200 (Normal Price)");
+//			}
+//		} else {
+//			System.out.println("Category: Child");
+//			System.out.println("Ticket Price: ₹100 (Child Ticket)");
+//		}
+
+		// Practice session- 13/10/2026
+
+		// 1)Write a program that check if a persons age is greater 18, then
+		// print"Adult"
+//		Scanner sc = new Scanner(System.in);
+//
+//		System.out.print("Enter age: ");
+//		int age = sc.nextInt();
+//
+//		if (age > 18 && age <= 100) {
+//			System.out.println("Adult");
+//		} else {
+//			System.out.println("Invalid age");
+//		}
+
+		// 2)Write a program to check wheather a number is divisible by 10?
+//		Scanner sc = new Scanner(System.in);
+//
+//		System.out.print("Enter number: ");
+//		int n = sc.nextInt();
+//		
+//		if (n % 10 == 0) {
+//			System.out.println("The number is divisible by 10!!");
+//		}else {
+//			System.out.println("Not divisible by 10!!");
+//		}
+
+		// 3)Write a program to check wheather a temperature is above 30c , then print
+		// "Hot day"
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("Enter temp: ");
+//		int temp = sc.nextInt();
+//		
+//		if (temp > 30) {
+//			System.out.println("Hot day!!");
+//		}
+
+		// 4)Write a program to check wheather a number is even or add
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("Enter number: ");
+//		int n = sc.nextInt();
+//		
+//		if ( n % 2 == 0) {
+//			System.out.println("Even number");
+//		}else {
+//			System.out.println("Odd number");
+//		}
+
+		// 5)Write a program to check whether a given year is leap year or not?\
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("Enter year: ");
+//		
+//		
+//		int year = sc.nextInt();
+//		
+//		if (year <= 0) {
+//			System.out.println("Invalid year");
+//		}else if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {
+//			System.out.println(year + " is Leap year");
+//		}else {
+//			System.out.println(year +" Not a leap year");
+//		}
+
+		// 6)Write a program to check whether a number is positive or negative?
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("Enter number: ");
+//		int n = sc.nextInt();
+//		
+//		if (n == 0) {
+//			System.out.println("Please enter a valid number !!");
+//		}else if (n > 0) {
+//			System.out.println("Positive number");
+//		}else {
+//			System.out.println("Negative number");
+//		}
+
+		// 7)Write a program to find grade of a student based on marks?
+
+//		Scanner sc  = new Scanner(System.in);
+//		
+//		System.out.print("Enter marks: ");
+//		
+//		int marks = sc.nextInt();
+//		
+//		
+//		if (marks >= 90 && marks <= 100) {
+//			System.err.println("A grade");
+//		}else if (marks >= 75 && marks <= 89) {
+//			System.out.println("B grade");
+//		}else if (marks >= 50 && marks <= 74) {
+//			System.out.println("C grade");
+//		}else if (marks >= 35 && marks <= 49) {
+//			System.out.println("D grade");
+//		}else {
+//			System.out.println("Fail");
+//		}
+
+		// 8)Write a program to print the day of the week based on the day number (1 -
+		// 7)?
+
+//		int day = 6;
+//		
+//		if (day <=0 || day > 7) {
+//			System.out.println("Please enter a valid day ");
+//		}else if (day == 1) {
+//			System.out.println("Monday");
+//		}else if (day == 2) {
+//			System.out.println("Tuesday");
+//		}else if (day == 3) {
+//			System.out.println("Wednesday");
+//		}else if (day == 4) {
+//			System.out.println("Thursday");
+//		}else if (day == 5) {
+//			System.out.println("Friday");
+//		}else if (day == 6) {
+//			System.out.println("Saturday");
+//		}else if (day == 7) {
+//			System.out.println("Sunday");
+//		}
+
+		// 9)Write a program to check the type of triangle (Equilateral, Isoceles, or Scalene)
+     		
+     		
+//     		int size1 = sc.nextInt();
+//     		int size2 = sc.nextInt();
+//     		int size3 = sc.nextInt();
+//     		
+//     		if (size1 == size2 && size2 == size3) {
+//				System.out.println("Equilaterl triangle");
+//			}else if (size1 == size2 && size2 != size3 || size2 == size3 && size3 != size1 || size1 == size3 && size3 != size2) {
+//				System.out.println("Iscoceles triangle");
+//			}else {
+//				System.out.println("Scalene triangle");
+//			}
+     		
+     		
+     		//10)Write a program to print a message based in age group:
+     		
+//     		System.out.print("Enter age: ");
+//     		int age = sc.nextInt();
+//     		
+//     		if (age < 0) {
+//				System.out.println("Enter a valid age!!");
+//			}else if (age >= 0 && age <= 12) {
+//				System.out.println("Child");
+//			}else if (age >= 13 && age <= 19) {
+//				System.out.println("Teenager");
+//			}else if (age >= 20 && age <= 59) {
+//				System.out.println("Adult");
+//			}else if (age >=60 ) {
+//				System.out.println("Senior citizen");
+//			}
+     		
+     		//11)Write a program to classify a temp as hot, warm, and cold?
+     		
+//     		int temp = sc.nextInt();
+//     		
+//     		if (temp >= 30) {
+//				System.out.println("Hot");
+//			}else if (temp >= 20 && temp <= 29) {
+//				System.out.println("Warm");
+//			}else {
+//				System.out.println("Cold");
+//			}
+     		
+     		//12)Write a program to check if a person is eligible for vote and if eligible , check if they can contest in election(age >= 25)
+     		
+//     		System.out.print("Enter age : ");
+//     		int age = sc.nextInt();
+//     		
+//     		if (age >= 18) {
+//				System.out.println("Eligible for vote!!");
+//				
+//				if (age >= 25) {
+//					System.out.println("contest in election");
+//				}else {
+//					System.out.println("Not eligible for contest");
+//				}
+//			}else {
+//				System.out.println("Not eligible");
+//			}
+     		
+     		//13)Write a program to check if a year is a leap year and if leap, check if its a centuray year?
+     		
+//     		System.out.print("Enter year : ");
+//     		int year = sc.nextInt();
+//     		
+//     		if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {
+//				System.out.println("Leap year");
+//				if (year % 100 == 0) {
+//					System.out.println("Centuary year");
+//				}
+//			}else {
+//				System.out.println("Not a leap year");
+//			}
+     		
+     		//14)Write a program to check a number is even and if even .check whether it is greater then 50.
+     		
+     		
+     		int n = sc.nextInt();
+     		
+     		if (n % 2 == 0) {
+				System.out.println("Even number");
+				
+				if (n > 50) {
+					System.out.println("The number is greater then 50!!");
+				}
+				
+			}else {
+				System.out.println("Odd number");
 			}
-		} else {
-			System.out.println("Category: Child");
-			System.out.println("Ticket Price: ₹100 (Child Ticket)");
-		}
+     		
+     		
+     		
+     		
+     		
+     		
+     		
+     		
+     		
+
 	}
 }
