@@ -1,7 +1,14 @@
 package com.code;
 
-public class Coding {
+import java.util.Scanner;
 
+public class Coding {
+	
+	
+	
+
+	
+	//Mock 1
 // 1)print prime numbers from 100 to 1
 //			public static void main(String[] args) {
 //				int n = 100;
@@ -36,4 +43,27 @@ public class Coding {
 //				System.out.println(a);
 //				System.out.println(b);
 //			}
+	
+	
+	//Mock 2
+
+	//3)Area of circle
+	
+	public static void main(String[] args) {
+		
+		System.out.print("Enter radius: ");
+		Scanner sc = new Scanner(System.in);
+		int rad = sc.nextInt();
+		
+		float pi =  3.14f;
+		
+		double area = pi * rad * rad;
+		
+		System.out.println("The area of circle is : "+ area);
+	}
+	
+	
+	
+	
+		
 }
