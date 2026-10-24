@@ -26,7 +26,7 @@ public class Employee {
 	}
 
 	void work() {
-		System.out.println(employeeName + "is working");
+		System.out.println(employeeName + " is working");
 	}
 
 	void attendMeeting() {

@@ -27,26 +27,27 @@ public class MainClass {
 
 		// creating object
 
-//		Employee e1 = new Employee();
-//		
-//		e1.employeeId = 101;
-//		e1.employeeName = "Ananta";
-//		e1.age = 23;
-//		e1.gender = "Male";
-//		e1.department = "IT";
-//		e1.designation = "Java developer";
-//		e1.email = "abc@gmail.com";
-//		e1.phoneNumber = 772098762;
-//		e1.salary = 35000;
-//		e1.isPermanent = true;
-//		
-//		e1.displayDetails();
-//		e1.work();
-//		e1.attendMeeting();
-//		
-//		
-//		System.out.println("Annual salary : "+ e1.calculateAnnualSalary());
-//		e1.checkPermanentStatus();
+		Employee e1 = new Employee();
+		
+		e1.employeeId = 101;
+		e1.employeeName = "Ananta";
+		e1.age = 23;
+		e1.gender = "Male";
+		e1.department = "IT";
+		e1.designation = "Java developer";
+		e1.email = "abc@gmail.com";
+		e1.phoneNumber = 772098762;
+		e1.salary = 35000;
+		e1.isPermanent = true;
+		
+		e1.displayDetails();
+		e1.work();
+		e1.attendMeeting();
+		
+		double annualSalary = e1.calculateAnnualSalary();
+		
+		System.out.println("Annual salary : "+ annualSalary);
+		e1.checkPermanentStatus();
 
 		// creating objects
 //		Library l1 = new Library();
@@ -121,37 +122,37 @@ public class MainClass {
 //		h1.checkBedAvailabilty();
 
 		// creating object
-		Vehicle v1 = new Vehicle();
-
-		v1.vehicleId = 111;
-		v1.brand = "Tata";
-		v1.model = "Nexon";
-		v1.color = "Black";
-		v1.vehicleType = "SUV";
-		v1.fuelType = "Electric";
-		v1.speed = 0;
-		v1.price = 1500000;
-		v1.manufacturingYear = 2026;
-		v1.isElectric = true;
-		
-		v1.displayDetails();
-		
-		System.out.println("-----------------------");
-		
-		v1.start();
-		
-		System.out.println("-----------------------");
-
-		v1.stop();
-		
-		System.out.println("-----------------------");
-
-		
-		v1.accelerate(20);
-		
-		System.out.println("----------------------");
-		v1.brake(20);
-		System.out.println("Vehicle stoped");
+//		Vehicle v1 = new Vehicle();
+//
+//		v1.vehicleId = 111;
+//		v1.brand = "Tata";
+//		v1.model = "Nexon";
+//		v1.color = "Black";
+//		v1.vehicleType = "SUV";
+//		v1.fuelType = "Electric";
+//		v1.speed = 0;
+//		v1.price = 1500000;
+//		v1.manufacturingYear = 2026;
+//		v1.isElectric = true;
+//		
+//		v1.displayDetails();
+//		
+//		System.out.println("-----------------------");
+//		
+//		v1.start();
+//		
+//		System.out.println("-----------------------");
+//
+//		v1.stop();
+//		
+//		System.out.println("-----------------------");
+//
+//		
+//		v1.accelerate(20);
+//		
+//		System.out.println("----------------------");
+//		v1.brake(20);
+//		System.out.println("Vehicle stoped");
 
 	}
 }
