@@ -95,21 +95,29 @@ public class MainClass {
 //		System.out.println("Keyboard Value: ₹" + p3.calculateInventoryValue());
 
 //Rectangle Management System
-		Rectangle r1 = new Rectangle();
-		Rectangle r2 = new Rectangle();
-		Rectangle r3 = new Rectangle();
-
+//		Rectangle r1 = new Rectangle();
+//		Rectangle r2 = new Rectangle();
+//		Rectangle r3 = new Rectangle();
+//
+//		
+//		r1.setDimensions(10, 5);
+//		r2.setDimensions(8, 8);
+//		r3.setDimensions(12, 4);
+//
+//		r1.displayDetails();
+//		System.out.println("----------------");
+//		r2.displayDetails();
+//		System.out.println("----------------");
+//
+//		r3.displayDetails();
 		
-		r1.setDimensions(10, 5);
-		r2.setDimensions(8, 8);
-		r3.setDimensions(12, 4);
-
-		r1.displayDetails();
-		System.out.println("----------------");
-		r2.displayDetails();
-		System.out.println("----------------");
-
-		r3.displayDetails();
+		
+		
+//Library Book Management System
+		
+		
+		
+		
 		
 		
 		
