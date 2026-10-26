@@ -94,7 +94,7 @@ public class MainClass {
 //		System.out.println("Mouse Value: ₹" + p2.calculateInventoryValue());
 //		System.out.println("Keyboard Value: ₹" + p3.calculateInventoryValue());
 
-//Rectangle Management System
+//5)Rectangle Management System
 //		Rectangle r1 = new Rectangle();
 //		Rectangle r2 = new Rectangle();
 //		Rectangle r3 = new Rectangle();
@@ -113,8 +113,25 @@ public class MainClass {
 		
 		
 		
-//Library Book Management System
+//6)Library Book Management System
+		Book b1 = new Book();
 		
+		b1.setDetails(101, "Java", "James Gosling");
+		
+		
+		b1.displayDetails();
+		b1.issueBook();
+		b1.issueBook();
+		
+//		b1.returnBook();
+//		b1.returnBook();
+		
+		
+		b1.displayDetails();
+		
+		
+
+
 		
 		
 		
