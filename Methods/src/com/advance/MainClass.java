@@ -114,20 +114,28 @@ public class MainClass {
 		
 		
 //6)Library Book Management System
-		Book b1 = new Book();
-		
-		b1.setDetails(101, "Java", "James Gosling");
-		
-		
-		b1.displayDetails();
-		b1.issueBook();
-		b1.issueBook();
-		
+//		Book b1 = new Book();
+//		
+//		b1.setDetails(101, "Java", "James Gosling");
+//		
+//		
+//		b1.displayDetails();
+//		b1.issueBook();
+//		b1.issueBook();
+//		
 //		b1.returnBook();
 //		b1.returnBook();
+//		
+//		
+//		b1.displayDetails();
 		
 		
-		b1.displayDetails();
+//7)Electricity Bill Calculator
+		ElectricityBill e1 = new ElectricityBill();
+		
+		e1.setDetails("Ananta", 250);
+		
+		e1.displayDetails();
 		
 		
 
