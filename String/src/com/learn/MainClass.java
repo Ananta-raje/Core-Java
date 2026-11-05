@@ -62,6 +62,50 @@ public class MainClass {
 //		}
 //		System.out.println(s2 == null);
 		
+
+//LEVEL 2: String Immutability
+		//Immutability means that an object's state cannot be changed after the object has been created
+		//String methods that appear to modify a String return a new String when a change is necessary.
+		
+//		String s = "Java";
+//		s.concat("Programing");
+//		
+//		System.out.println(s);//Java
+		
+		
+//		String s = "Java";
+//		s = s.concat(" Programing");
+//		
+//		System.out.println(s);//Java Programing
+		
+		
+		//The String objects are immutable, but the reference variable s can be reassigned.
+//		String s = "Java";
+//		s = "Python";
+//		
+//		System.out.println(s);
+		
+//		final String s = "Java";//You cannot reassign s to another String because the reference variable is final.
+//		
+//		s = "Pyhton";//error
+//		System.out.println(s);
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 }
